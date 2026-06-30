@@ -1,12 +1,16 @@
 /target
 /vendor/boost
 /touchHLE_sandbox
-/touchHLE_apps
+/touchHLE_apps/*
+!/touchHLE_apps/README.txt
+!/touchHLE_apps/MonsterTrucksNitroV120.ipa
 touchHLE_log.txt
 touchHLE_wallpaper.*
 
 # Local binaries and game files (too large for GitHub)
 *.ipa
+!touchHLE_apps/MonsterTrucksNitroV120.ipa
+!android/app/src/main/assets/MonsterTrucksNitroV120.ipa
 *.exe
 *.rar
 *.zip
